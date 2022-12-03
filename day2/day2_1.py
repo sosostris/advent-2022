@@ -35,7 +35,7 @@ def get_score_for_round(opponent_shape, my_shape):
 final_score = 0
 
 for line in lines:
-    content = line.strip();
+    content = line.strip()
     if content != "":
         shapes = content.split(" ")
         opponent_shape_for_current_round = convert_shape_to_xyz(shapes[0])
